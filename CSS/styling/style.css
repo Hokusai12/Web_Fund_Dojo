@@ -1,0 +1,26 @@
+h1 {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.h1-cyan {
+    color: cyan;
+}
+
+h2 {
+    background-color: rebeccapurple;
+    color: white;
+    font-style: italic;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: lighter;
+}
+
+h3 {
+    background-color: lightblue;
+    color: rebeccapurple;
+    font-family: "Comic Sans MS";
+    text-decoration: underline;
+    text-align: right;
+}

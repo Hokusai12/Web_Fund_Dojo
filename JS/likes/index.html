@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Likes Counter</title>
+</head>
+<body>
+    <div class="net-bar"><h1>Network</h1></div>
+    <div class="header"><h1>Your Feed</h1></div>
+
+    <div class="content-window">
+        <div class="profile">
+            <img src="imgs/user-circle.png" alt="Profile Image">
+            <a href="#">Add an avatar</a>
+            <h2>James Doe</h2>
+        </div>
+        <div class="posts">
+            <div class="likes-container">
+                <div class="top">
+                    <h3>Neil M</h3>
+                    <p><span class="like-count-1">3</span> like(s)</p>
+                    <button class="like-btn" onclick="incrementLikes(0)">Like</button>
+                </div>
+                <div class="bottom">
+                    <p>I just set up this new discord bot, let me know what you all think. <a href="#">link</a></p>
+                </div>
+            </div>
+            <div class="likes-container-2">
+                <div class="top">
+                    <h3>Nichole K</h3>
+                    <p><span class="like-count-2">3</span> like(s)</p>
+                    <button class="like-btn" onclick="incrementLikes(1)">Like</button>
+                </div>
+                <div class="bottom">
+                    <p>Just finished my <a href="#">next comic</a>, check it out.</p>
+                </div>
+            </div>
+            <div class="likes-container-3">
+                <div class="top">
+                    <h3>Jim R</h3>
+                    <p><span class="like-count-3">3</span> like(s)</p>
+                    <button class="like-btn" onclick="incrementLikes(2)">Like</button>
+                </div>
+                <div class="bottom">
+                    <p>I can't stop listening to the <a href="#">new album</a>. Who else is liking it?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

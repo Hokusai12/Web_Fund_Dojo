@@ -1,0 +1,74 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px none;
+    box-shadow: 0px 0px transparent;
+}
+
+.card {
+    margin: 50px auto;
+    width: 600px;
+    height: 300px;
+    border: 3px solid gray;
+}
+
+.blue-header {
+    width: inherit;
+    height: 80px;
+    background-color: rgb(0, 165, 165);
+    position: absolute;
+}
+
+.profile-data {
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    display: flex;
+    flex-flow: column wrap;
+    padding: 20px;
+    font-family: sans-serif;
+}
+
+.profile-header {
+    display: flex;
+    flex-flow: column nowrap;
+    width: inherit;
+    margin: 5px 0px;
+}
+
+.profile-img {
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+.location {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    gap: 10px;
+}
+
+.description {
+    margin: 10px 0px;
+}
+
+.map-icon {
+    width: 10px;
+    height: 15px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+img[alt="settings gear"] {
+    width: 15px;
+    height: 15px;
+}

@@ -1,0 +1,247 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(38, 38, 38);
+    color: white;
+    width: inherit;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+
+.navbar .left {
+    display: flex;
+    padding-left: 17%;
+    width: 50%;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+}
+
+
+.navbar .right {
+    display: flex;
+    padding-right: 17%;
+    width: 50%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar button {
+    color: white;
+    width: 75px;
+    background-color: rgb(0, 165, 165);
+    border: 2px solid black;
+    box-shadow: 1px 1px black;
+}
+
+
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+}
+
+.container .left {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+
+.container .right {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 40px;
+}
+
+
+.blue-header {
+    width: inherit;
+    height: 75px;
+    background-color: rgb(0, 165, 165);
+    position: absolute;
+    z-index: -1;
+}
+
+.user-card {
+    width: 400px;
+    height: 300px;
+    border: 3px solid lightgray;
+}
+
+.map-pin {
+    width: 10px;
+    height: 15px;
+}
+
+.profile-image {
+    width: 80px;
+    border-radius: 50%;
+}
+
+.profile-header {
+    display: flex;
+    flex-flow: column wrap;
+    padding: 0px 10px;
+    padding-top: 33px;
+}
+
+.location {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 10px;
+    align-items: baseline;
+    padding: 0px 10px;
+    margin: 10px 0px;
+}
+
+.description {
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    gap: 10px;
+}
+
+.settings>img{
+    width: 15px;
+    height: 15px;
+}
+
+.connection-requests {
+    width: 400px;
+    height: 200px;
+    border: 3px solid lightgray;
+}
+
+.con-req-num {
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    width: 27px;
+    border-radius: 50%;
+}
+
+.conn-req {
+    display: flex;
+    flex-flow: row nowrap;
+    width: inherit;
+    align-items: center;
+    font-size: 25px;
+    justify-content: space-between;
+}
+
+.top-header {
+    background-color: gray;
+    width: inherit;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.top-header p {
+    display: inline;
+    font-size: 25px;
+}
+
+.user-info {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+
+img.user-img {
+    width: 65px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+img.conn-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.connections {
+    width: 400px;
+    height: 370px;
+    border: 3px solid lightgray;
+}
+
+.con-num {
+    display: inline-block;
+    background-color: lightgray;
+    text-align: center;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.connection-list {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.user-connection {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.user-connection p {
+    font-size: 25px;
+}
+
+hr#connection-break {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+
+.connections>p {
+    display: inline-block;
+    padding: 10px 5px;
+}
+
+.education {
+    width: inherit;
+    height: 200px;
+    border: 3px solid lightgray;
+}
+
+.edu-institution, .edu-description {
+    padding: 0px 10px;
+}
+
+.edu-dates {
+    color: lightgray;
+    padding: 10px 10px;
+
+}

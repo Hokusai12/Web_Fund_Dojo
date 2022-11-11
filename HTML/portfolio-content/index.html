@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        td{
+            border: 1px solid black;
+        }
+        th {
+            border: 2px solid black;
+        }
+        .links{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .links img[src="img/GitHub_Logo.png"]{
+            margin-top: 10px;
+        }
+        .links a{
+            display: flex;
+            align-items: center;
+            height: 27px;
+        }
+        .contact-me{
+            display:flex;
+            width:500px;
+            margin-top: 50px;
+        }
+        .contact-me textarea{
+            margin-top: 20px;
+        }
+        .msg-btn{
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+    </style>
+    <title>Portfolio</title>
+</head>
+<body>
+    <div>
+        <h1>Ian Hearne</h1>
+        <img src="img/headshot.jpg
+        " alt="Headshot of me" width="100" height="120">
+    </div>
+    <div class="links">
+        <a href="https://github.com/Hokusai12"><img src="img/GitHub_Logo.png" alt="GitHub Logo" style="height:27px" ></a>
+        <a href="https://www.linkedin.com/in/ian-hearne-317196255/" style="padding-top: 10px"><img src="img/LI-Logo.png" alt="LinkedIn Logo" style="height:21px"></a>
+    </div>
+    <div style="display:inline-block">
+        <h2 style="text-align: center">Proficiencies</h2>
+        <table style="border: 1px solid black">
+            <tr>
+                <th>Front-End</th>
+                <th>Back-End</th>
+                <th>Concepts</th>
+                <th>Other</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Java</td>
+                <td>OOP</td>
+                <td>App-Making</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>C++</td>
+                <td>Pointers</td>
+                <td>Game-Structure</td>
+            </tr>
+            <tr>
+                <td>JS</td>
+                <td>MySQL</td>
+                <td>Data-Structure</td>
+                <td>Memory Storage</td>
+            </tr>
+        </table>
+    </div>
+    <div class="contact-me">
+        <form>
+            <label for="name">Name: </label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email: </label>
+            <input type="text" name="email" id="email">
+            <label for="message">Message: </label>
+            <textarea name="message" id="message" cols="30" rows="4"></textarea>
+            <div class="msg-btn">
+                <input type="button" value="Send Message">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,46 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav {
+    background-color: rgb(50, 50, 50);
+    color: white;
+    font-family: sans-serif;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+li {
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.active {
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+button {
+    background-color: turquoise;
+    color: white;
+    width: 70px;
+    height: 25px;
+    border-width: 3px;
+    box-shadow: 2px 2px black;
+}

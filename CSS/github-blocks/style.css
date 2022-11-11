@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0px auto;
+}
+
+
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1, p {
+    font-family: sans-serif;
+    color: gray;
+}
+
+
+a {
+    color: lightblue;
+}
+
+
+.container {
+    width: 45%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: orange; /*To match Halloween :)*/
+    gap: 20px;
+}
+
+.row-1, .row-2, .row-3 {
+    width: 100%;
+    display: flex;
+}
+
+img {
+    width: 175px;
+    height: 175px;
+}
+
+.row-1 {
+    background-color: rebeccapurple;
+    justify-content: space-between;
+}
+
+.row-1 img {
+    background-color: lightblue;
+}
+
+.row-2 {
+    background-color: seagreen;
+    justify-content: space-evenly;
+}
+
+.row-3 {
+    background-color: tomato;
+    justify-content: space-between;
+}

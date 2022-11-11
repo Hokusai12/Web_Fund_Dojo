@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inputs Experimentation</title>
+</head>
+<body>
+    <input type="radio" name="font" value="bold" id="bold">
+    <label for="normal">Normal</label>
+    <input type="radio" name="font" value="normal" id="normal">
+    <label for="bold"><strong>Bold</strong></label>
+    <hr>
+    <form action="/process" method="post">
+        <div>
+            <label>Name: </label>
+            <input type="text" name="name" 
+            placeholder="Your name..." >
+        </div>
+        <div>
+            <label>Email: </label>
+            <input type="text" name="email" 
+            placeholder="Your email..." >
+        </div>
+        <div>
+            <input type="checkbox" name="offers" 
+            id="offers" checked >
+            <label for="offers">I would like 
+            to receive email offers!</label>
+        </div>
+        <input type="submit" value="Sign Up!" >
+    </form>
+    
+</body>
+</html>

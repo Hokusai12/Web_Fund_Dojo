@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <form action="#">
+            <input type="text" placeholder="Search" name="search-bar" id="search-bar" size="50">
+        </form>
+        <button class="login-btn" onclick="login_button(this)">Login</button>
+    </div>
+    <div class="container">
+        <div class="definition">
+            <div class="left">
+                <h1 class="word">ninja</h1>
+                <p class="part-of-speech">noun</p>
+                <p>Plural: <span class="plural">ninjas</span></p>
+                <button class="like-btn" onclick="like_def()">13 likes</button>
+            </div>
+            <div class="right">
+                <p class="word-def">A practicioner skilled in the <a href="#">Japanese</a> art of <a href="#">ninjutsu</a></p>
+            </div>
+        </div>
+        <div class="definition">
+            <div class="left">
+                <h1 class="word">ninja</h1>
+                <p class="part-of-speech">noun</p>
+                <p>Plural: <span class="plural">ninjas</span></p>
+                <button class="like-btn" onclick="like_def()">37 likes</button>
+            </div>
+            <div class="right">
+                <p class="word-def">A <a href="#">programmer</a> who breaks down problems with <a href="#">zen</a>-like focus</p>
+            </div>
+        </div>
+        <div class="add-def-window">
+            <div class="add-def-text">
+                <p>Dojonary is defined by YOU</p>
+            </div>
+            <button id="add-def-btn" onclick="remove_add_def_button(this)">Add Definition</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
